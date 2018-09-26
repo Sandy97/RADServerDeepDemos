@@ -1,0 +1,18 @@
+object EmployeesResource1: TEmployeesResource1
+  OldCreateOrder = False
+  Height = 179
+  Width = 214
+  object conn: TFDConnection
+    Params.Strings = (
+      'ConnectionDef=EMPLOYEE')
+    LoginPrompt = False
+    Left = 23
+    Top = 13
+  end
+  object qry: TFDQuery
+    SQL.Strings = (
+      'SELECT * FROM EMPLOYEE')
+    Left = 19
+    Top = 67
+  end
+end
